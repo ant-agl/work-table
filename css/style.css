@@ -198,7 +198,7 @@ body {
   background-color: #152E4D;
   color: #fff;
   width: 200px;
-  height: 200px;
+  /* height: 200px; */
   margin-left: 8px;
   margin-bottom: 8px;
   animation: open-block 0.2s ease;
@@ -218,6 +218,7 @@ body {
   letter-spacing: 0em;
   cursor: pointer;
   position: relative;
+  display: inline-block;
 }
 .widgets-block__select-item::after {
   content: '';
@@ -561,13 +562,13 @@ body {
 .air-datepicker-button {
   color: #fff;
 }
-.air-datepicker-nav--title.-focus-,
+.air-datepicker-nav--title.-focus,
 .air-datepicker-nav--title:hover,
-.air-datepicker-nav--action.-focus-,
+.air-datepicker-nav--action.-focus,
 .air-datepicker-nav--action:hover,
-.air-datepicker-button.-focus-,
+.air-datepicker-button.-focus,
 .air-datepicker-button:hover,
-.air-datepicker-cell.-focus-,
+.air-datepicker-cell.-focus,
 .air-datepicker-cell:hover {
   background-color: #3f556f;
   color: #fff;
@@ -577,11 +578,11 @@ body {
 .air-datepicker-cell.-selected-.-focus- {
   background-color: #8F8AF8;
 }
-.air-datepicker-cell.-selected-.-focus-,
+.air-datepicker-cell.-selected-.-focus,
 .air-datepicker-cell.-selected-:hover {
   background-color: #706bcb;
 }
-.air-datepicker-cell.-current-.-focus-,
+.air-datepicker-cell.-current-.-focus,
 .air-datepicker-cell.-current-:hover {
   color: #fff;
 }
